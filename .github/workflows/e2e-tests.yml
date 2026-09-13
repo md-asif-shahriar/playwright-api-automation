@@ -15,7 +15,7 @@ jobs:
       - name: Checkout automation-project
         uses: actions/checkout@v4
         with:
-          repository: md-asif-shahriar/playwright-api-automation/   # replace with real org/repo
+          repository: md-asif-shahriar/rokomari-automation-nextgen   # replace with real org/repo
           ref: main                                     # branch of automation-project to use
           token: ${{ secrets.AUTOMATION_REPO_PAT }}
           path: automation-project
